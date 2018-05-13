@@ -14,12 +14,19 @@ Download the sketch datasets (e.g. sketch_shoes_64)
 * Shoes sketches: [sketch_shoes_64.hdf5](https://people.eecs.berkeley.edu/~junyanz/projects/gvm/datasets/sketch_shoes_64.zip) (76MB), [sketch_shoes_128.hdf5](https://people.eecs.berkeley.edu/~junyanz/projects/gvm/datasets/sketch_shoes_128.zip) (278MB), [sketch_shoes_64.hdf5](https://people.eecs.berkeley.edu/~junyanz/projects/gvm/datasets/hed_shoes_64.zip) (69MB), [sketch_shoes_128.hdf5](https://people.eecs.berkeley.edu/~junyanz/projects/gvm/datasets/hed_shoes_128.zip) (244MB), 50K shoes sketches collected by [Yu and Grauman](http://vision.cs.utexas.edu/projects/finegrained/utzap50k/) and filtered by Photoshop sketch filter or [HED](https://github.com/s9xie/hed) edge detection.  ([Photoshop sketch samples](https://people.eecs.berkeley.edu/~junyanz/projects/gvm/samples/sketch_shoes_64_real.png), [HED samples](https://people.eecs.berkeley.edu/~junyanz/projects/gvm/samples/hed_shoes_64_real.png)).
 
 
+
+
+
 ## Train a DCGAN model
 * Install the following python libraries:
   * [Scipy](http://www.scipy.org/install.html)
   * [tqdm](https://github.com/noamraph/tqdm)  
   ```bash
   sudo pip install tqdm
+  ```
+  * Install Theano0.9
+  ```bash
+  pip install git+https://github.com/theano/theano@0.9.X
   ```
 
 
